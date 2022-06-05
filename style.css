@@ -1,0 +1,149 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+                /* Menu Bar Design Start  */
+
+.menubar {
+    background-color: rgb(250, 250, 241);
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.navigation, .menu{
+    display: flex;
+}
+.navigation{
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    padding: 15px 20px;
+}
+.menu li:hover {
+    background-color: tomato;
+}
+
+            /* Menu Bar Design End  */
+
+            /* Header Section Design Statrt  */
+.top-banner{
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    /* margin-bottom: 100px; */
+}
+section{
+    height: 850px;
+}
+h1{
+    color: salmon;
+    font-size: 60px;
+}
+.topper-h3{
+    margin-top: 100px;
+}
+.topper-img{
+    width: 100%;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    
+}
+.button{
+    height: 15px;
+    width: 20px;
+    background-image: linear-gradient(to right, Salmon, orange);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+                    /* Header Design End  */
+
+                    /* middler section start  */
+
+.middler-img{
+    width: 100%;
+
+}
+.middle-gap{
+    margin-left: 200px;
+}
+.biography{
+    margin-left: 360px;
+    margin-top: 150px;
+    font-size: 30px;
+}
+.middler{
+    background-image: url(personal-website/biography-bg.png);
+}
+
+                    /* middler section end  */
+
+                    
+                    /* biography section start  */
+
+.my-latest-work-h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: red;
+}
+.tree-width{
+    width: 30%;
+    float: left;
+    margin: 0px 30px;
+}
+.latest-work-image{
+    width: 100%;
+    
+}
+.last-section{
+    background-image: url(personal-website/latest-work-bg.png);
+    /* margin-top: 200px; */
+}
+.latest-work-image1{
+    margin-left: 10px;
+}
+h5{
+    text-align: center;
+}
+.copyright-name{
+    font-size: 15px;
+    color: tomato;
+}
+
+                    /* biography section start  */
+
+
+footer{
+    height: 400px;
+    margin-bottom: 20px;
+    background-image: url(personal-website/footer-bg.png);
+}
+.footer-center-align{
+    text-align: center;
+    color: gray;
+}
+.footer-box{
+    height: 80px;
+    width: 400px;
+    background-color: brown ;
+    padding: 10px;
+    color: white;
+    margin-left: 630px;
+    border-radius: 10px;
+}
+.footer-h6{
+    font-size: 30px;
+}
